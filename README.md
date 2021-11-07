@@ -4,7 +4,7 @@ Simple Swift UI training project.
 
 ## Screens
 
-<img src="/images/main.png" width="375" height="667"> <img src="/images/main_oz.png" width="375" height="667"> <img src="/images/dark.png" width="375" height="667">
+<img src="/assets/main.png" width="375" height="667"> <img src="/assets/main_oz.png" width="375" height="667"> <img src="/assets/dark.png" width="375" height="667">
 
 ## License
 
