@@ -7,16 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF3BD2F627386DAE0027EF46 /* StayHydrated in Resources */ = {isa = PBXBuildFile; fileRef = CF3BD2F527386DAE0027EF46 /* StayHydrated */; };
+		CF8848012738FF9500C077D5 /* StayHydratedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848002738FF9500C077D5 /* StayHydratedApp.swift */; };
+		CF8848052738FF9600C077D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8848042738FF9600C077D5 /* Assets.xcassets */; };
+		CF8848082738FF9600C077D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8848072738FF9600C077D5 /* Preview Assets.xcassets */; };
+		CF8848112738FFE200C077D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF8848132738FFE200C077D5 /* Localizable.strings */; };
+		CF88481B2739005C00C077D5 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88481A2739005C00C077D5 /* String+Localized.swift */; };
+		CF884823273900E500C077D5 /* HydrationMillilitresDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF884822273900E500C077D5 /* HydrationMillilitresDataRepository.swift */; };
+		CF884825273900EB00C077D5 /* HydrationSettingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF884824273900EB00C077D5 /* HydrationSettingsRepository.swift */; };
+		CF88482C2739010A00C077D5 /* Color+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848282739010A00C077D5 /* Color+Custom.swift */; };
+		CF88482D2739010A00C077D5 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848292739010A00C077D5 /* ProgressBar.swift */; };
+		CF88482E2739010A00C077D5 /* ImagedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88482A2739010A00C077D5 /* ImagedButton.swift */; };
+		CF88482F2739010A00C077D5 /* StatefulPreviewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88482B2739010A00C077D5 /* StatefulPreviewWrapper.swift */; };
+		CF8848372739011100C077D5 /* ScreenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848302739011100C077D5 /* ScreenInfo.swift */; };
+		CF8848382739011100C077D5 /* HydrationValue+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848312739011100C077D5 /* HydrationValue+String.swift */; };
+		CF8848392739011100C077D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848322739011100C077D5 /* ContentView.swift */; };
+		CF88483A2739011100C077D5 /* HydrationControlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848332739011100C077D5 /* HydrationControlInfo.swift */; };
+		CF88483B2739011100C077D5 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848342739011100C077D5 /* MainViewModel.swift */; };
+		CF88483C2739011100C077D5 /* UnitType+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848352739011100C077D5 /* UnitType+String.swift */; };
+		CF88483D2739011100C077D5 /* UnitToggleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848362739011100C077D5 /* UnitToggleInfo.swift */; };
+		CF8848402739012A00C077D5 /* WaterUnit+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88483E2739012A00C077D5 /* WaterUnit+Type.swift */; };
+		CF8848412739012A00C077D5 /* HydrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88483F2739012A00C077D5 /* HydrationInteractor.swift */; };
+		CF8848452739013100C077D5 /* HydrationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848422739013100C077D5 /* HydrationControl.swift */; };
+		CF8848462739013100C077D5 /* HydrationLevelDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848432739013100C077D5 /* HydrationLevelDescription.swift */; };
+		CF8848472739013100C077D5 /* HydrationValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848442739013100C077D5 /* HydrationValue.swift */; };
+		CF88484A2739013800C077D5 /* WaterUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848482739013800C077D5 /* WaterUnits.swift */; };
+		CF88484B2739013800C077D5 /* UnitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8848492739013800C077D5 /* UnitType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF3BD2F527386DAE0027EF46 /* StayHydrated */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StayHydrated; sourceTree = "<group>"; };
-		CFDA6CCD27308DD6003570FF /* StayHydrated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StayHydrated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8847FD2738FF9500C077D5 /* StayHydrated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StayHydrated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8848002738FF9500C077D5 /* StayHydratedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayHydratedApp.swift; sourceTree = "<group>"; };
+		CF8848042738FF9600C077D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8848072738FF9600C077D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF8848122738FFE200C077D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF88481A2739005C00C077D5 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		CF884822273900E500C077D5 /* HydrationMillilitresDataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrationMillilitresDataRepository.swift; sourceTree = "<group>"; };
+		CF884824273900EB00C077D5 /* HydrationSettingsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrationSettingsRepository.swift; sourceTree = "<group>"; };
+		CF8848282739010A00C077D5 /* Color+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Custom.swift"; sourceTree = "<group>"; };
+		CF8848292739010A00C077D5 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		CF88482A2739010A00C077D5 /* ImagedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagedButton.swift; sourceTree = "<group>"; };
+		CF88482B2739010A00C077D5 /* StatefulPreviewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatefulPreviewWrapper.swift; sourceTree = "<group>"; };
+		CF8848302739011100C077D5 /* ScreenInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenInfo.swift; sourceTree = "<group>"; };
+		CF8848312739011100C077D5 /* HydrationValue+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HydrationValue+String.swift"; sourceTree = "<group>"; };
+		CF8848322739011100C077D5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF8848332739011100C077D5 /* HydrationControlInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrationControlInfo.swift; sourceTree = "<group>"; };
+		CF8848342739011100C077D5 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CF8848352739011100C077D5 /* UnitType+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnitType+String.swift"; sourceTree = "<group>"; };
+		CF8848362739011100C077D5 /* UnitToggleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitToggleInfo.swift; sourceTree = "<group>"; };
+		CF88483E2739012A00C077D5 /* WaterUnit+Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WaterUnit+Type.swift"; sourceTree = "<group>"; };
+		CF88483F2739012A00C077D5 /* HydrationInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrationInteractor.swift; sourceTree = "<group>"; };
+		CF8848422739013100C077D5 /* HydrationControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrationControl.swift; sourceTree = "<group>"; };
+		CF8848432739013100C077D5 /* HydrationLevelDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrationLevelDescription.swift; sourceTree = "<group>"; };
+		CF8848442739013100C077D5 /* HydrationValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HydrationValue.swift; sourceTree = "<group>"; };
+		CF8848482739013800C077D5 /* WaterUnits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterUnits.swift; sourceTree = "<group>"; };
+		CF8848492739013800C077D5 /* UnitType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFDA6CCA27308DD6003570FF /* Frameworks */ = {
+		CF8847FA2738FF9500C077D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -26,32 +74,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFDA6CC427308DD6003570FF = {
+		CF8847F42738FF9500C077D5 = {
 			isa = PBXGroup;
 			children = (
-				CF3BD2F527386DAE0027EF46 /* StayHydrated */,
-				CFDA6CCE27308DD6003570FF /* Products */,
+				CF8847FF2738FF9500C077D5 /* StayHydrated */,
+				CF8847FE2738FF9500C077D5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CFDA6CCE27308DD6003570FF /* Products */ = {
+		CF8847FE2738FF9500C077D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFDA6CCD27308DD6003570FF /* StayHydrated.app */,
+				CF8847FD2738FF9500C077D5 /* StayHydrated.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8847FF2738FF9500C077D5 /* StayHydrated */ = {
+			isa = PBXGroup;
+			children = (
+				CF8848142739000B00C077D5 /* Src */,
+				CF88480E2738FFCD00C077D5 /* Assets */,
+				CF8848062738FF9600C077D5 /* Preview Content */,
+			);
+			path = StayHydrated;
+			sourceTree = "<group>";
+		};
+		CF8848062738FF9600C077D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF8848072738FF9600C077D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF88480E2738FFCD00C077D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CF8848132738FFE200C077D5 /* Localizable.strings */,
+				CF8848042738FF9600C077D5 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CF8848142739000B00C077D5 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				CF884821273900C900C077D5 /* Presentation */,
+				CF88481D2739008900C077D5 /* Interactors */,
+				CF88481C2739008400C077D5 /* Data */,
+				CF8848192739004D00C077D5 /* Utils */,
+				CF8848002738FF9500C077D5 /* StayHydratedApp.swift */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		CF8848192739004D00C077D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF88481A2739005C00C077D5 /* String+Localized.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CF88481C2739008400C077D5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CF884822273900E500C077D5 /* HydrationMillilitresDataRepository.swift */,
+				CF884824273900EB00C077D5 /* HydrationSettingsRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CF88481D2739008900C077D5 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				CF884820273900B900C077D5 /* Models */,
+				CF88481F273900A700C077D5 /* Hydration */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		CF88481F273900A700C077D5 /* Hydration */ = {
+			isa = PBXGroup;
+			children = (
+				CF8848492739013800C077D5 /* UnitType.swift */,
+				CF8848482739013800C077D5 /* WaterUnits.swift */,
+				CF88483F2739012A00C077D5 /* HydrationInteractor.swift */,
+				CF88483E2739012A00C077D5 /* WaterUnit+Type.swift */,
+			);
+			path = Hydration;
+			sourceTree = "<group>";
+		};
+		CF884820273900B900C077D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF8848422739013100C077D5 /* HydrationControl.swift */,
+				CF8848432739013100C077D5 /* HydrationLevelDescription.swift */,
+				CF8848442739013100C077D5 /* HydrationValue.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF884821273900C900C077D5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				CF8848272739010200C077D5 /* Main */,
+				CF884826273900FC00C077D5 /* Components */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		CF884826273900FC00C077D5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CF8848282739010A00C077D5 /* Color+Custom.swift */,
+				CF88482A2739010A00C077D5 /* ImagedButton.swift */,
+				CF8848292739010A00C077D5 /* ProgressBar.swift */,
+				CF88482B2739010A00C077D5 /* StatefulPreviewWrapper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CF8848272739010200C077D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CF8848322739011100C077D5 /* ContentView.swift */,
+				CF8848332739011100C077D5 /* HydrationControlInfo.swift */,
+				CF8848312739011100C077D5 /* HydrationValue+String.swift */,
+				CF8848342739011100C077D5 /* MainViewModel.swift */,
+				CF8848302739011100C077D5 /* ScreenInfo.swift */,
+				CF8848362739011100C077D5 /* UnitToggleInfo.swift */,
+				CF8848352739011100C077D5 /* UnitType+String.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFDA6CCC27308DD6003570FF /* StayHydrated */ = {
+		CF8847FC2738FF9500C077D5 /* StayHydrated */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFDA6CDB27308DD7003570FF /* Build configuration list for PBXNativeTarget "StayHydrated" */;
+			buildConfigurationList = CF88480B2738FF9600C077D5 /* Build configuration list for PBXNativeTarget "StayHydrated" */;
 			buildPhases = (
-				CFDA6CC927308DD6003570FF /* Sources */,
-				CFDA6CCA27308DD6003570FF /* Frameworks */,
-				CFDA6CCB27308DD6003570FF /* Resources */,
+				CF8847F92738FF9500C077D5 /* Sources */,
+				CF8847FA2738FF9500C077D5 /* Frameworks */,
+				CF8847FB2738FF9500C077D5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -59,25 +227,25 @@
 			);
 			name = StayHydrated;
 			productName = StayHydrated;
-			productReference = CFDA6CCD27308DD6003570FF /* StayHydrated.app */;
+			productReference = CF8847FD2738FF9500C077D5 /* StayHydrated.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFDA6CC527308DD6003570FF /* Project object */ = {
+		CF8847F52738FF9500C077D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					CFDA6CCC27308DD6003570FF = {
+					CF8847FC2738FF9500C077D5 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = CFDA6CC827308DD6003570FF /* Build configuration list for PBXProject "StayHydrated" */;
+			buildConfigurationList = CF8847F82738FF9500C077D5 /* Build configuration list for PBXProject "StayHydrated" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -85,39 +253,74 @@
 				en,
 				Base,
 			);
-			mainGroup = CFDA6CC427308DD6003570FF;
-			productRefGroup = CFDA6CCE27308DD6003570FF /* Products */;
+			mainGroup = CF8847F42738FF9500C077D5;
+			productRefGroup = CF8847FE2738FF9500C077D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFDA6CCC27308DD6003570FF /* StayHydrated */,
+				CF8847FC2738FF9500C077D5 /* StayHydrated */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CFDA6CCB27308DD6003570FF /* Resources */ = {
+		CF8847FB2738FF9500C077D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF3BD2F627386DAE0027EF46 /* StayHydrated in Resources */,
+				CF8848082738FF9600C077D5 /* Preview Assets.xcassets in Resources */,
+				CF8848112738FFE200C077D5 /* Localizable.strings in Resources */,
+				CF8848052738FF9600C077D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CFDA6CC927308DD6003570FF /* Sources */ = {
+		CF8847F92738FF9500C077D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF88482E2739010A00C077D5 /* ImagedButton.swift in Sources */,
+				CF88483C2739011100C077D5 /* UnitType+String.swift in Sources */,
+				CF88482F2739010A00C077D5 /* StatefulPreviewWrapper.swift in Sources */,
+				CF8848392739011100C077D5 /* ContentView.swift in Sources */,
+				CF8848452739013100C077D5 /* HydrationControl.swift in Sources */,
+				CF88482C2739010A00C077D5 /* Color+Custom.swift in Sources */,
+				CF8848472739013100C077D5 /* HydrationValue.swift in Sources */,
+				CF8848412739012A00C077D5 /* HydrationInteractor.swift in Sources */,
+				CF88481B2739005C00C077D5 /* String+Localized.swift in Sources */,
+				CF884823273900E500C077D5 /* HydrationMillilitresDataRepository.swift in Sources */,
+				CF88484A2739013800C077D5 /* WaterUnits.swift in Sources */,
+				CF8848372739011100C077D5 /* ScreenInfo.swift in Sources */,
+				CF88483B2739011100C077D5 /* MainViewModel.swift in Sources */,
+				CF8848462739013100C077D5 /* HydrationLevelDescription.swift in Sources */,
+				CF884825273900EB00C077D5 /* HydrationSettingsRepository.swift in Sources */,
+				CF8848382739011100C077D5 /* HydrationValue+String.swift in Sources */,
+				CF88483A2739011100C077D5 /* HydrationControlInfo.swift in Sources */,
+				CF88483D2739011100C077D5 /* UnitToggleInfo.swift in Sources */,
+				CF8848012738FF9500C077D5 /* StayHydratedApp.swift in Sources */,
+				CF88484B2739013800C077D5 /* UnitType.swift in Sources */,
+				CF88482D2739010A00C077D5 /* ProgressBar.swift in Sources */,
+				CF8848402739012A00C077D5 /* WaterUnit+Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		CF8848132738FFE200C077D5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8848122738FFE200C077D5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		CFDA6CD927308DD7003570FF /* Debug */ = {
+		CF8848092738FF9600C077D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		CFDA6CDA27308DD7003570FF /* Release */ = {
+		CF88480A2738FF9600C077D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,13 +436,14 @@
 			};
 			name = Release;
 		};
-		CFDA6CDC27308DD7003570FF /* Debug */ = {
+		CF88480C2738FF9600C077D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development: st235@yandex.ru (65QSXBHTE8)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = StayHydrated;
+				DEVELOPMENT_ASSET_PATHS = "\"StayHydrated/Preview Content\"";
 				DEVELOPMENT_TEAM = 275D4J3Y5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -255,20 +459,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = st235.com.github.StayHydrated;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CFDA6CDD27308DD7003570FF /* Release */ = {
+		CF88480D2738FF9600C077D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development: st235@yandex.ru (65QSXBHTE8)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = StayHydrated;
+				DEVELOPMENT_ASSET_PATHS = "\"StayHydrated/Preview Content\"";
 				DEVELOPMENT_TEAM = 275D4J3Y5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +488,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = st235.com.github.StayHydrated;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,25 +497,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFDA6CC827308DD6003570FF /* Build configuration list for PBXProject "StayHydrated" */ = {
+		CF8847F82738FF9500C077D5 /* Build configuration list for PBXProject "StayHydrated" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFDA6CD927308DD7003570FF /* Debug */,
-				CFDA6CDA27308DD7003570FF /* Release */,
+				CF8848092738FF9600C077D5 /* Debug */,
+				CF88480A2738FF9600C077D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFDA6CDB27308DD7003570FF /* Build configuration list for PBXNativeTarget "StayHydrated" */ = {
+		CF88480B2738FF9600C077D5 /* Build configuration list for PBXNativeTarget "StayHydrated" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFDA6CDC27308DD7003570FF /* Debug */,
-				CFDA6CDD27308DD7003570FF /* Release */,
+				CF88480C2738FF9600C077D5 /* Debug */,
+				CF88480D2738FF9600C077D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CFDA6CC527308DD6003570FF /* Project object */;
+	rootObject = CF8847F52738FF9500C077D5 /* Project object */;
 }
