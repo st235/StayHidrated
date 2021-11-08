@@ -17,7 +17,10 @@ struct ContentView: View {
             Text("main_screen.title".localized)
                 .font(.title.weight(.bold))
                 .foregroundColor(.Dynamic.TextPrimary)
-                .padding(16)
+                .padding(.trailing, 16)
+                .padding(.leading, 16)
+                .padding(.top, 32)
+                .padding(.bottom, 16)
             
             Picker("Hello", selection: selectionBunding) {
                 ForEach(screenInfo.availableUnits, id: \.self) { unitToggleInfo in
