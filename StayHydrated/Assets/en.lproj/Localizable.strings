@@ -3,4 +3,11 @@
 "units.pints" = "pt.";
 "units.ounces" = "oz.";
 
+"main.tab.today" = "Today";
+"main.tab.history" = "History";
+
 "main_screen.title" = "Current Hydration";
+"main_screen.chart.header" = "Last 7 days hydration";
+
+"history.title" = "Historical Data";
+"history.subtitle" = "Latests 7 days results";

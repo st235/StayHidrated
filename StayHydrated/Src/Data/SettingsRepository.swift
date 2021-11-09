@@ -1,6 +1,6 @@
 import Foundation
 
-class HydrationSettingsRepository {
+class SettingsRepository {
     
     private static let UnitsKey = "defaults.units.setting"
     
@@ -8,11 +8,11 @@ class HydrationSettingsRepository {
     
     var hydrationUnits: UnitType {
         get {
-            let selectedValue = userDefaults.integer(forKey: HydrationSettingsRepository.UnitsKey)
+            let selectedValue = userDefaults.integer(forKey: SettingsRepository.UnitsKey)
             return UnitType.allCases.first(where: { $0.rawValue == selectedValue }) ?? UnitType.milliliters
         }
         set {
-            userDefaults.set(newValue.rawValue, forKey: HydrationSettingsRepository.UnitsKey)
+            userDefaults.set(newValue.rawValue, forKey: SettingsRepository.UnitsKey)
         }
     }
     

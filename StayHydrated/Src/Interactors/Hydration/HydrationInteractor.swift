@@ -28,11 +28,11 @@ class HydrationInteractor {
            )
        ]
     
-    private let hydrationSettingsRepository: HydrationSettingsRepository
-    private let hydrationDataRepository: HydrationMillilitresDataRepository
+    private let hydrationSettingsRepository: SettingsRepository
+    private let hydrationDataRepository: HydrationHistoryDataRepository
     
-    init(hydrationSettingsRepository: HydrationSettingsRepository,
-         hydrationDataRepository: HydrationMillilitresDataRepository) {
+    init(hydrationSettingsRepository: SettingsRepository,
+         hydrationDataRepository: HydrationHistoryDataRepository) {
         self.hydrationSettingsRepository = hydrationSettingsRepository
         self.hydrationDataRepository = hydrationDataRepository
     }
@@ -47,20 +47,26 @@ class HydrationInteractor {
     }
     
     var recommendedValue: HydrationValue {
-        let selectedUnit = hydrationSettingsRepository.hydrationUnits
-        return HydrationInteractor.RecommendedValue.changeUnitType(newUnitType: selectedUnit)
+        get async {
+            let selectedUnit = hydrationSettingsRepository.hydrationUnits
+            return HydrationInteractor.RecommendedValue.changeUnitType(newUnitType: selectedUnit)
+        }
     }
     
     var todayValue: HydrationValue {
-        let selectedUnit = hydrationSettingsRepository.hydrationUnits
-        return HydrationValue(value: hydrationDataRepository.todayValue, unitType: .milliliters).changeUnitType(newUnitType: selectedUnit)
+        get async {
+            let selectedUnit = hydrationSettingsRepository.hydrationUnits
+            return HydrationValue(value: await hydrationDataRepository.getTodayValue(), unitType: .milliliters).changeUnitType(newUnitType: selectedUnit)
+        }
     }
     
-    var todayProgress: Double {        
-        let value = todayValue.value
-        let recommendedValue = recommendedValue.value
-        
-        return value / recommendedValue
+    var todayProgress: Double {
+        get async {
+            let value = await todayValue.value
+            let recommendedValue = await recommendedValue.value
+            
+            return value / recommendedValue
+        }
     }
     
     var availableUnits: [UnitType] {
@@ -75,9 +81,13 @@ class HydrationInteractor {
         }
     }
     
-    func updateProgress(diff: Double, unit: UnitType) {
+    func updateProgress(diff: Double, unit: UnitType) async {
         let currentUnitConverter = unit.toUnitConverter(rawValue: diff)
-        hydrationDataRepository.updateValue(diff: currentUnitConverter.toMilliliters().value)
+        await hydrationDataRepository.updateValue(diff: currentUnitConverter.toMilliliters().value)
+    }
+    
+    func fetchHistory() async -> [Double] {
+        return await hydrationDataRepository.getHistoricData().sorted(by: { $0.timestamp < $1.timestamp }).map({ $0.valueInMillilitres })
     }
     
 }
