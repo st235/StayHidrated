@@ -47,7 +47,7 @@ struct TodayView: View {
                 inactiveColor: .Static.Grey800,
                 activeColor: .Static.DeepOrange300
             )
-                .frame(height: 200, alignment: .center)
+                .frame(height: 180, alignment: .center)
                 .padding(32)
             
             Text(String(format: "%@ / %@", screenInfo.todayValue, screenInfo.recommendedValue))

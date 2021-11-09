@@ -7,13 +7,13 @@ struct ContentView: View {
         TabView {
             TodayView()
                 .tabItem {
-                    Label("main.tab.today".localized, systemImage: "list.dash")
+                    Label("main.tab.today".localized, systemImage: "calendar")
                 }
                 .environmentObject(MainViewModel())
             
             HistoricView()
                 .tabItem {
-                    Label("main.tab.history".localized, systemImage: "list.dash")
+                    Label("main.tab.history".localized, systemImage: "clock")
                 }
                 .environmentObject(MainViewModel())
         }
